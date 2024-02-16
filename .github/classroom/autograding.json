@@ -1,0 +1,77 @@
+{
+  "tests": [
+    {
+      "name": "run notebook",
+      "setup": "pip install jupyterlab numpy matplotlib pytest Bio muscle pymsaviz",
+      "run": "jupyter execute Homework4_ProblemSet",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Q1",
+      "run": "pytest -k test1 .github/tag/hwk2soln.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Q2",
+      "run": "pytest -k test2 .github/tag/hwk2soln.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Q3",
+      "run": "pytest -k test3 .github/tag/hwk2soln.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Q4",
+      "run": "pytest -k test4 .github/tag/hwk2soln.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Q5",
+      "run": "pytest -k test5 .github/tag/hwk2soln.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Q6",
+      "run": "pytest -k test6 .github/tag/hwk2soln.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Q8",
+      "run": "pytest -k test8 .github/tag/hwk2soln.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
